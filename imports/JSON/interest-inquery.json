@@ -1,0 +1,36 @@
+{
+    "title": "What are your interests?",
+    "questions": [{
+            "question-title": "What is your UP number?",
+            "question-type": "open",
+            "name": "up-number"
+        },
+        {
+            "question-title": "You would like to have quinzenal workshops powered by the NUCC?",
+            "question-type": "yes-no",
+            "name": "quinzenal-workshops"
+        },
+        {
+            "question-title": "Whar are your interests",
+            "question-type": "enum",
+            "question-alternatives": [
+                "Games",
+                "Security",
+                "WebDev",
+                "Algorithms",
+                "OS"
+            ],
+            "name": "interests"
+        },
+        {
+            "question-title": "What is the best day and hours for your",
+            "question-type": "date-time",
+            "name": "date-time"
+        },
+        {
+            "question-title": "In which academic year do you are",
+            "question-type": "open",
+            "name": "academic-year"
+        }
+    ]
+}
